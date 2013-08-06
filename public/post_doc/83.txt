@@ -1,0 +1,27 @@
+1/ Cron Job set in SSH (add/edit/delete/execute)
+
+crontab -l to list the available cron commands
+
+Crontab -e to add the new cron command
+
+2/ Change File permission
+
+chmod 777 file/folder it will change the permission only to that files and folder
+
+chmod -R 777 file/folder it will change the permission to that folder and files inside that folder
+
+3/ Change owner group
+
+chown -R ownername:groupname files/folder
+
+4/ Check server space like ram size, hard space.
+
+df -h to check the hard disk space
+
+free -m to check the ram size
+
+5/ Check Server OS details
+
+cat /etc/redhat-release to check the OS details
+
+lsb_release -a to check the OS details

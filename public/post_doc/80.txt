@@ -1,0 +1,176 @@
+System Info
+-----------
+-----------
+date – Display current date and time
+
+cal – show current month’s calender
+
+uptime – show current server’s uptime since last reboot
+
+w – display which user’s are logged in and average load on the server
+
+whoami – who you are logged in as (funny!)
+
+finder username – Get information about A specific user on the system
+
+uname – a – Display kernal information
+
+cat /proc/cpuinfo – Display CPU information
+
+cat /proc/meminfo – Display Memory (RAM) info
+
+man command – Show Manual for any “command”
+
+df – show disk usage
+
+du – show directory space usage
+
+df -h – show all HDD’s and their mount point
+
+free – show RAM and its swap usage (free -m to display in MB)
+
+whereis app – Find location of an app
+
+------------------------------------------
+
+
+Network
+--------
+--------
+ping – ping any IP / Host and output result
+
+whois domain.tld – Get whois information of any domain name
+
+dig domain.tld – Get DNS information of any domain
+
+dig -x host – Reverse lookup
+
+wget file-location – Download any remote file
+
+wget -c file – Continue a paused / stopped download
+
+-------------------------------------------------------------
+
+
+File Commands
+-------------
+-------------
+
+ls – List directories
+
+ls -al – Formatted listing with hidden files
+
+cd dir – Change to DIR
+
+cd – Switch to home
+
+pwd – Show current directory
+
+mkdir name – Create a new directory called “name”
+
+rm filename – Delete a file
+
+rm -r dir – Delete an EMPTY directory called “dir”
+
+rm -rf dir – Delete an entire directory with files called “dir”
+
+cp file1 file2 – Copy file1 to file2
+
+mv file1 file2 – Move or Rename a file
+
+touch file – Create or Update a file
+
+more file – Output the content of the file
+
+tail file – Output last 10 lines of a file
+
+-----------------------------------------------------------------
+
+Compression
+-------------
+-------------
+
+tar cf file.tar files – Create a tarball compressing the folder called “files”
+
+tar xf file.tar – Exact the tarball “file.tar”
+
+gzip filename  - Compress and rename the file to filename.gz
+ 
+File Permissions
+
+4 – Read (r)
+2- Write (w)
+1- Execute (x)
+
+Example : “chmod 777 filename” will allocation read, write & execute permission to filename.
+
+----------------------------------------------------------------------------------------------
+
+
+Searching
+-----------
+-----------
+
+grep pattern files – search for a pattern in files
+
+grep -r pattern dir – Search recursively for pattern in dir
+
+command | grep pattern – Search for pattern in output command
+
+locate file – Find all instances of file
+------------------------------------------------------
+
+
+Process Management
+------------------
+-----------------
+ps – Display all current active processes
+
+top – Display all running processes
+
+top -c – Display processes using top CPU
+
+top -m – Display processes using top Memory (RAM)
+
+kill pid – Kill a process with its pid
+
+bg – List stopped background jobs
+
+fg – Bring the most recent job to the foreground
+ 
+--------------------------------------------------------
+ 
+SSH
+-----
+-----
+
+ssh user@hostname – connect to a host as a user
+
+ssh -p 22 user@host – Connect to a host as a user on specific port (in this case 22)
+
+ssh-copy-id user@host – Add your key to host for user to enable a keyed or password-less login
+
+---------------------------------------------------------
+
+ 
+Shortcuts
+---------
+---------
+
+
+Ctrl + C – Halts the current command
+
+Ctril + Z – Stops the current command, you can resume it with fg in the foreground and bg in the background
+
+Ctril + D – Logout of current session
+
+Ctrl + U – Erase the line
+
+Ctrl + R – Type to bring up a recent command
+
+!! – Repeat the last command
+
+exit – Logout of current session
+
+abc* – Every file / dir / etc starting with abc
+ 
